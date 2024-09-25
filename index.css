@@ -2,13 +2,12 @@
     margin: 0px;
 }
 
-html {
-    height: 100%;
+html, body {
+    min-height: 100vh;
 }
   
   
 body{
-    height: 100%;
     background-color: hsl(212, 45%, 89%);
     display: flex;
     flex-direction: column;
